@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lívia Lucena — Desenvolvedora Back-End .NET & Web Designer Freelance</title>
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="assets/images/favicon.png">
+
+  <!-- Libs externas -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
+
+  <!-- CSS próprio -->
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- ══ NAVBAR ══ -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="assets/logo.png" alt="Lívia Lucena">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav gap-1">
+        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section id="hero">
+  <div class="hero-content">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <div id="hero-text">
+            <p class="hero-label">Digital Solutions Developer</p>
+            <h1 class="hero-title">Sites elegantes<br>Estratégia que <em>converte</em></h1>
+            <p class="hero-sub">
+             Olá, sou a Lívia. Desenvolvo sites e landing pages estratégicos que unem design, performance e experiência para transformar visitantes em clientes.</p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#projetos" class="btn-hero">Ver projetos</a>
+              <a href="#contato"  class="btn-ghost"><i class="bi bi-envelope"></i> Contato</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- FOTO -->
+        <div class="col-lg-5 d-flex justify-content-center align-items-center">
+          <div class="hero-photo-wrap" id="hero-photo">
+            <img src="assets/profile/livia.jpg" alt="Lívia Souza" class="hero-photo-img">
+            <span class="hero-photo-tag">Lívia Souza · Dev &amp; Web Designer</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- BARRA DE CREDENCIAIS (full-width) -->
+      <div class="hero-stat-line">
+        <div class="hero-stat"><label>Engenharia de Software</label><span>Back-End · APIs · Performance</span></div>
+        <div class="hero-stat"><label>Soluções Web</label><span>Sites · Landing Pages · Conversão</span></div>
+        <div class="hero-stat"><label>Atendimento</label><span>Brasil · Remoto</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SOBRE ══ -->
+<section id="sobre">
+  <div class="container">
+    <div class="row g-5 align-items-start">
+
+      <div class="col-lg-4 fade-up">
+        <p class="section-eyebrow">Sobre mim</p>
+        <h2 class="section-title">Sites que impressionam.<br>
+          Landing pages que <em>convertem.</em></h2>
+
+        <div class="about-stats">
+          <div class="about-stat">
+            <p class="about-stat-num">3<sup>+</sup></p>
+            <p class="about-stat-label">Anos de experiência</p>
+          </div>
+          <div class="about-stat">
+            <p class="about-stat-num">4<sup>+</sup></p>
+            <p class="about-stat-label">Projetos entregues</p>
+          </div>
+          <div class="about-stat">
+            <p class="about-stat-num">2</p>
+            <p class="about-stat-label">Frentes de atuação</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-8 fade-up">
+        <p class="about-text mb-4">Sou <strong>Lívia Lucena de Souza</strong>, desenvolvedora de software especializada em transformar ideias em <strong>experiências digitais de alto nível</strong>. Uno estratégia, design e tecnologia para criar sites e landing pages <strong>modernos, rápidos e pensados para conversão</strong>.
+        </p>
+        <p class="about-text mb-0">
+          Meu diferencial está em combinar <strong>profundidade técnica</strong> e visão estratégica de design, entregando soluções que unem <strong>visual profissional, performance e confiabilidade</strong>.
+        </p>
+
+        <!-- SKILLS — abaixo do texto, em duas frentes -->
+        <div class="row g-4 about-skills">
+          <div class="col-md-6">
+            <p class="section-eyebrow mb-3">Engenharia de Software</p>
+            <div class="skill-group">
+              <span class="skill-pill">C#</span>
+              <span class="skill-pill">.NET</span>
+              <span class="skill-pill">ASP.NET Core</span>
+              <span class="skill-pill">APIs RESTful</span>
+              <span class="skill-pill">MongoDB</span>
+              <span class="skill-pill">Entity Framework</span>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <p class="section-eyebrow mb-3">Web &amp; Conversão</p>
+            <div class="skill-group">
+              <span class="skill-pill">HTML5</span>
+              <span class="skill-pill">CSS3</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">Bootstrap</span>
+              <span class="skill-pill">Figma</span>
+              <span class="skill-pill">Next.Js</span>
+              <span class="skill-pill">SEO On-page</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ PROJETOS ══ -->
+<section id="projetos">
+  <div class="container">
+
+    <div class="row mb-4 align-items-end fade-up">
+      <div class="col">
+        <p class="section-eyebrow">Projetos selecionados</p>
+        <h2 class="section-title">Trabalhos recentes.</h2>
+      </div>
+    </div>
+
+    <div class="project-filters fade-up">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="marketing">Marketing</button>
+      <button class="filter-btn" data-filter="estetica">Estética</button>
+      <button class="filter-btn" data-filter="industria">Indústria</button>
+    </div>
+
+    <div class="row g-4" id="projectGrid">
+
+      <!-- CARD 1 — Nurie Marketing -->
+      <div class="col-md-6 col-lg-4 fade-up project-item" data-category="marketing">
+        <div class="project-card" data-bs-toggle="modal" data-bs-target="#modal1">
+          <div class="project-thumb">
+            <img src="assets/images/nurie-capa.png" alt="Nurie Marketing">
+            <div class="overlay"><i class="bi bi-eye overlay-icon"></i></div>
+          </div>
+          <div class="project-body">
+            <p class="project-tag">Marketing Digital</p>
+            <h3 class="project-name">Nurie Marketing</h3>
+            <p class="project-desc">Landing page completa para agência de marketing digital. Foco em geração de leads com formulário otimizado e apresentação de cases.</p>
+            <div>
+              <span class="tech-badge">HTML</span>
+              <span class="tech-badge">CSS</span>
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">Bootstrap</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 2 — Lumière Estética -->
+      <div class="col-md-6 col-lg-4 fade-up project-item" data-category="estetica">
+        <div class="project-card" data-bs-toggle="modal" data-bs-target="#modal2">
+          <div class="project-thumb">
+            <img src="assets/images/lumiere-capa.png" alt="Lumière Estética">
+            <div class="overlay"><i class="bi bi-eye overlay-icon"></i></div>
+          </div>
+          <div class="project-body">
+            <p class="project-tag">Beleza &amp; Estética</p>
+            <h3 class="project-name">Lumière Estética</h3>
+            <p class="project-desc">Site sofisticado para clínica de estética. Galeria de serviços, agendamento online e identidade visual premium em tons rosados e escuros.</p>
+            <div>
+              <span class="tech-badge">HTML</span>
+              <span class="tech-badge">SCSS</span>
+              <span class="tech-badge">JS</span>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 3 — Sereno PSICOLOGIA -->
+      <div class="col-md-6 col-lg-4 fade-up project-item" data-category="industria">
+        <div class="project-card" data-bs-toggle="modal" data-bs-target="#modal3">
+          <div class="project-thumb">
+            <img src="assets/images/sereno-capa.png" alt="Sereno Psicologia">
+            <div class="overlay"><i class="bi bi-eye overlay-icon"></i></div>
+          </div>
+        <div class="project-body">
+            <p class="project-tag">Saúde &amp; Bem-estar</p>
+            <h3 class="project-name">Sereno Psicologia</h3>
+            <p class="project-desc">Landing page para clínica de psicologia. Design acolhedor e sereno que transmite confiança e convida ao agendamento de consultas.</p>
+            <div> 
+              <span class="tech-badge">HTML</span>
+              <span class="tech-badge">CSS</span>
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">Bootstrap</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ MODAIS ══ -->
+<div class="modal fade" id="modal1" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header border-0 pb-0">
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body p-0">
+        <iframe src="https://nuriemarketing.vercel.app"
+                width="100%"
+                height="600px"
+                style="border:none; border-radius:0 0 16px 16px; display:block; max-height:75vh;"
+                loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal2" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header border-0 pb-0">
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body p-0">
+        <iframe src="https://lumiere-two-drab.vercel.app"
+                width="100%"
+                height="600px"
+                style="border:none; border-radius:0 0 16px 16px; display:block; max-height:75vh;"
+                loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal3" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header border-0 pb-0">
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body p-0">
+        <iframe src="https://sereno-dusky.vercel.app"
+                width="100%"
+                height="600px"
+                style="border:none; border-radius:0 0 16px 16px; display:block; max-height:75vh;"
+                loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ CONTATO ══ -->
+<section id="contato">
+  <div class="container">
+    <div class="contact-card fade-up">
+      <h2 class="contact-title">Vamos criar algo<br><em>incrível juntos?</em></h2>
+      <p class="contact-sub">
+        Precisa de um site, landing page ou projeto web?<br>
+        Sou freelancer e estou aberta a novos trabalhos — me chame e vamos conversar.
+      </p>
+      <div class="d-flex justify-content-center flex-wrap gap-2 mb-4">
+        <a href="mailto:liviasouza.dev@gmail.com" class="btn-hero">
+          <i class="bi bi-envelope-fill"></i> liviasouza.dev
+        </a>
+      </div>
+      <div class="d-flex justify-content-center flex-wrap">
+        <a href="https://linkedin.com/in/livialucenadesouza" target="_blank" class="social-link">
+          <i class="bi bi-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/szlivia" target="_blank" class="social-link">
+          <i class="bi bi-github"></i> GitHub
+        </a>
+        <a href="https://wa.me/5511943510015?text=Olá%20Lívia!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." target="_blank" class="social-link">
+            <i class="bi bi-whatsapp"></i> WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="container">
+    <p>© 2025 <span>Lívia Lucena de Souza</span> — Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<!-- Libs externas -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+<!-- JS próprio -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
